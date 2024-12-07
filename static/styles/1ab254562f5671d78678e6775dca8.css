@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #111;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0ff;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #0ff;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0ff, #002);
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .hero-text .btn {
+    padding: 10px 20px;
+    background: #0ff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .hero-text .btn:hover {
+    background: #005;
+    color: #fff;
+  }
+  
+  .products {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    margin-bottom: 20px;
+    color: #0ff;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: #222;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-card h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .product-card button {
+    padding: 10px 20px;
+    background: #0ff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .product-card button:hover {
+    background: #005;
+    color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
